@@ -40,6 +40,7 @@ read NOMBRE
 sleep 2
 echo -e "\e[1;33mBIENVENIDO A ADMINISTRADOR DE VPS \e[1;31m $NOMBRE\e[0m"
 sleep 2
+clear
 figlet BRAYAN [VPS]
 echo -e "\033[0;35m--------------------------------------------------\033[0m"
 if [ "$1" = "" ]; then
