@@ -82,7 +82,7 @@ fi
 echo -e "\033[1;36m[7]\033[1;32m - \033[1;32mINSTALAR PROXY PYTHON\033[0m"
 echo -e "\033[0;35m--------------------------------------------------\033[0m"
 read -p "OPCION: " opc
-else
+if
 opc="$1"
 fi
 case $opc in
