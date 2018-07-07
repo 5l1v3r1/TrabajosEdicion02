@@ -26,7 +26,7 @@ done
 echo -e "\033[1;32m----------------------------------\033[0m"
 rm -rf /tmp/ussh
 #
-echo -e "\033[1;31mCreador De Usuario @MRX470"
+echo -e "\033[1;31mCreador De Usuario BRAYAN [VPS]"
 echo -e "\033[1;32mNombre nuevo de usuario:\033[0;37m"; read -p " " name
 if [ "$name" = "" ]; then
 echo -e "\033[1;31mNada fue Digitado\033[0m"
